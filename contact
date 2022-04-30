@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3R</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+    <link rel="stylesheet" href="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Hachi+Maru+Pop&family=Hubballi&family=Montserrat:wght@254&family=Open+Sans:wght@326;379&family=Poppins:wght@100&family=Roboto:wght@300;400&family=Rubik+Glitch&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/base.css">
+</head>
+<body>
+    <div class="contact-page">
+        <img src="asset/img/contact-bg.png" alt="">
+        <a href="http://127.0.0.1:5500/index.html" class="back-btn">
+            <i class="fa-solid fa-angle-left"></i>
+            BACK
+        </a>
+
+        <div class="heading__brand">
+            <div class="heading__brand__logo"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="heading__brand__slogan"> | 3R</div>
+        </div>
+
+        <div class="contact-content">
+            <div class="our-info">
+                <div class="our-info__heading">CONTACT US</div>
+                <div class="our-info__container">
+                    <div class="our-info__item">
+                        <i class="fa-solid fa-envelope "></i>
+                        <a href="">3Rservices@gmail.com</a>
+                    </div>
+                    <div class="our-info__item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="">0836999051</a>
+                    </div>
+                    <div class="our-info__item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">HCM city</a>
+
+                    </div>
+                </div>
+                <div class="our-info__heading">FOLLOW US</div>
+                <div class="our-social__container">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram-square"></i> </a>
+                    <a href=""><i class="fa-brands fa-twitter"></i> </a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="client-info">
+                <h1>Get in touch</h1>
+                <div class="client-info__frames">
+                <input type="text" name="" placeholder="Name" required id="" class="client-info__name">
+                <input type="email" name="email" placeholder="Email" required id="email" class="client-info__email">
+                <input type="text" name="" placeholder="Message" required id="" class="client-info__message">
+            </div>
+                <button class="submit-btn">SEND</button>
+            </div>
+        </div>
+
+        <p class="commitment">We will never share your information to anyone, anywhere. Promise!</p>
+    </div>
+</body>
+</html>
