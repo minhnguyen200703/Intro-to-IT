@@ -5,101 +5,208 @@
 }
 
 
-/* Nav */
-
-.nav_searchbar{
-    position: relative;
-}
-
-.nav_searchbar input{
-    float: right;
-    padding: 24px;
-    border: none;
-    margin-top: -12px;
-    margin-right: 16px;
-    margin-bottom: 12px;
-    font-size: 17px;
-    width: 52rem;
-    height: 5rem;
-    border-radius: 2px;
-}
-
-
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+} 
 
 /* Content container */
 
-.review-container {
-    min-height: 900px;
+.checked {
+    color: orange;
 }
 
-.review-search-quantity {
-    font-size: 22px;
-}
-
-.review-department {
-    margin-bottom: 4rem;
+.profile-cover{
     display: flex;
-    align-items: center;
-    padding: 16px;
-}
-
-.review-department h1 {
-    font-size: 30px;
-    padding-right: 2rem;
-}
-
-.review-department-menu {
-    height: 16px;
-    size: 16px;
-    display: flex;
-    align-items: center;
-}
-
-.review-department-menu select {
-    min-height: 24px;
-}
-
-.review-container {
-    display: block;
     width: 50%;
-    justify-content: center;
-    position: relative;
-    top: 50px;
-    left: 15%;
-}
-
-.review-container .review-teacher {
-    background-color: rgb(247, 247, 247);
-    width: 100%;
-    height: 200px;
-    border: 5px solid rgb(247, 247, 247);
-    border-radius: 4px;
-    padding: 25px;
-    margin-bottom: 15px;
-    display: flex;
-    column-gap: 6rem;
-    row-gap: 1rem;
     justify-content: space-between;
 }
 
-.review-teacher img {
-    width: 14rem;
+.profile-container {
 }
 
-.review-teacher-profile {
-    flex-grow: 7;
+.profile-img {
+    width: 250px;
 }
 
-.review-teacher-vote {
+.profile-description {
+    font-size: larger;
+}
+
+.profile-name {
+
+}
+
+.profile-location {
+
+}
+
+.profile-major {
+
+}
+
+.profile-degree {
+
+}
+
+.profile-rating {
     display: flex;
-    font-size: 3rem;
+    font-size: 43px;
+    align-self: center;
     align-items: center;
 }
 
-
-.review-teacher-upvote {   
-    font-size: 6rem;
-    display: flex;
-    padding-right: 12px;
+.profile-upvote {
+    font-size: 80px;
+    padding-right: 16px;
 }
 
+.profile-course {
+
+}
+
+.profile-criteria-container { 
+    position: relative;
+    top: 50px;
+}
+
+.profile-criteria {
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.profile-criteria h2 {
+    min-width: 170px;
+}
+
+.profile-criteria span {
+    font-size: 20px;
+}
+
+
+/* Comment section */
+
+.comment-cover {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    
+}
+
+.comment-count {
+    font-size: 22px;
+    left: 32px;
+    position: relative;
+}
+
+.comment-box {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    width: 1200px;
+    margin-bottom: 32px;
+}
+
+.comment-header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.comment-course-name {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 12px;
+    margin-right: 44px;
+}
+
+.comment-overall {
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.comment-good {
+    background-color: #7FF63C;
+}
+
+.comment-bad {
+    background-color: #FF9C9C;
+}
+
+.comment-date {
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.comment-profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-profile-attribute {
+    padding: 16px;
+    display: flex;
+    font-size: 18px;
+    align-self: center;
+    line-height: 1.6rem;
+    font-weight: 500;
+}
+
+.comment-profile-attribute > p {
+    padding-right: 10px;
+}
+
+.comment-profile-pass {
+    
+}
+
+.comment-profile-attendace {
+    
+}
+
+.comment-profile-grade {
+    
+}
+
+.comment-profile-textbook {
+
+}
+
+.comment-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    ;
+}
+
+.comment-feedback {
+    font-size: 18px;
+    flex-grow: 0.4;
+    padding: 50px;
+    max-width: 600px;
+    line-height: 24px;
+}
+
+.comment-star-rating {
+
+}
+
+.comment-report {
+    margin-left: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.profile-criteria h4 {
+    min-width: 120px;
+    line-height: 16px;
+    margin: 12px;
+}
