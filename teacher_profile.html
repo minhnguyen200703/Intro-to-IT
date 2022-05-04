@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="asset/css/main.css">
     <link rel="stylesheet" href="asset/css/base.css">
     <link rel="stylesheet" href="asset/css/page1.css">
-</head>
+    <link rel="stylesheet" href="asset/css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
     <div class="main">
         <!-- Header Section -->
@@ -38,80 +39,403 @@
             
         </div>
 
-    <!-- Main content -->
-    <div class="review-container">
-        <div class="review-search-quantity">
-            10 professors with "ádasdasdas" in their name
-        </div>
-        <div class="review-department">
-            <h1>Department:</h1>
-            <div class="review-department-menu">
-                <select>
-                    <option value="0">ProfCom</option>
-                    <option value="1">IT</option>
-                    <option value="2">SE</option>
-                    <option value="3">Robotics</option>
-                    <option value="4">Marketing</option>
-                    <option value="5">Digital Marketing</option>
-                    <option value="6">Design</option>
-                    <option value="7">Logistic</option>
-                    <option value="8">Business</option>
-                    <option value="9">Digital Business</option>
-                  </select>
+    <!-- Profile content -->
+    <div class="main-content">
+        <div class="profile-cover">
+            <div class="profile-container">
+                <img src="asset/img/teacher_review1.jpg" alt="" class="profile-img">
+                <div class="profile-description">
+                    <h2 class="profile-name">Marc Spector</h2>
+                    <h3 class="profile-location">SGS</h3>
+                    <h3 class="profile-major">Psychology</h3>
+                    <h3 class="profile-degree">Doctor in Minh Nguyen university since 2013</h3>
+                    <p class="profile-course">Intro to Programming, Intro to IT, Web Programming</p>
+                </div>
             </div>
-        </div>
 
-        <div class="review-teacher">
-            <a href="">
-                <img src="./asset/img/teacher_review1.jpg" alt="">
-            </a>
-            <div class="review-teacher-profile">
-                <h1>Marc Spector</h1>
-                <h3>Psychology</h3>
-                <h3>SGS</h3>
-                <p>Intro to Programming, Intro to IT, Web Programming</p>
-            </div>
-            <div class="review-teacher-vote">
-                <i class="fa-solid fa-thumbs-up review-teacher-upvote"></i>
-                <h3>79</h3>
-            </div>
-        </div>
-
-        <div class="review-teacher">
-            <a href="">
-                <img src="./asset/img/teacher_review2.jpg" alt="">
-            </a>
-            <div class="review-teacher-profile">
-                <h1>Steven Grant</h1>
-                <h3>Marketing</h3>
-                <h3>SGS</h3>
-                <p>Intro to Marketing, Accounting, DBD</p>
-            </div>
-            <div class="review-teacher-vote">
-                <i class="fa-solid fa-thumbs-up review-teacher-upvote"></i>
-                <h3>17</h3>
-            </div>
-        </div>
-
-        <div class="review-teacher">
-            <a href="">
-                <img src="./asset/img/teacher_review3.jpg" alt="">
-            </a>
-            <div class="review-teacher-profile">
-                <h1>Jake Lockley</h1>
-                <h3>Professional Communication</h3>
-                <h3>SGS</h3>
-                <p>Intro to ProfCom, Asian Comedy</p>
-            </div>
-            <div class="review-teacher-vote">
-                <i class="fa-solid fa-thumbs-up review-teacher-upvote"></i>
+            <div class="profile-rating">
+                <i class="fa-solid fa-thumbs-up profile-upvote"></i>
                 <h3>120</h3>
             </div>
+                    
+            
+            <div class="profile-criteria-container">
+                <div class="profile-criteria">
+                    <h2>Clarity</h2>
+                    <div class="profile-criteria-star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="profile-criteria">
+                    <h2>Helpful</h2>
+                    <div class="profile-criteria-star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="profile-criteria">
+                    <h2>Exam Difficulty</h2>
+                    <div class="profile-criteria-star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="profile-criteria">
+                    <h2>Knowledgable</h2>
+                    <div class="profile-criteria-star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <div class="profile-criteria">
+                    <h2>Easy</h2>
+                    <div class="profile-criteria-star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </div>
+        
         </div>
 
-       
+        <!-- Comment section -->
+        <div class="comment-cover">
+            <div class="comment-count">
+                258 student ratings
+            </div>
+            <hr style="width:30%;text-align:left;margin-left:32px;border-width:2px;">
 
+            <div class="comment-box">
+                <div class="comment-header">
+                    <div class="comment-course-name">
+                        Intro to IT
+                    </div>
+
+                    <div class="comment-overall comment-good">
+                        GOOD
+                    </div>
+
+                    <div class="comment-date">
+                        May 1st 2022
+                    </div>
+                </div>
+
+                <div class="comment-profile">
+                    <div class="comment-profile-pass comment-profile-attribute">
+                        <p>Pass:</p>
+                        <p class="bold">YES</p>
+                    </div>
+                    <div class="comment-profile-attendace comment-profile-attribute">
+                        <p>Attendance: </p>
+                        <p class="bold">Mandatory</p>
+                    </div>
+                    <div class="comment-profile-grade comment-profile-attribute">
+                        <p>Grade: </p>
+                        <p class="bold">B+</p>
+                    </div>
+                    <div class="comment-profile-textbook comment-profile-attribute">
+                        <p>Textbook:</p>
+                        <p class="bold">YES</p>
+                    </div>
+                </div>
+
+                <div class="comment-comment">
+                    <div class="comment-feedback">
+                        <p>Marc almost elusively talks about love, hence his nickname, Dr Love. Which he holds up as the cause of all psychological malady, which is laughable. I have also known him to speak about topics that make people openly cry. Very uncomfortable. Tests suck too. Topics are case studies only, you wont be applying any statistics here, except on tests.</p>
+
+                    </div>
+
+                    <div class="comment-star-rating">
+                        <div class="profile-criteria-container">
+                            <div class="profile-criteria">
+                                <h4>Clarity</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Helpful</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Exam Difficulty</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Knowledgable</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Easy</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="comment-report">
+                    <a href="">
+                        <i class="fa fa-warning"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <div class="comment-header">
+                    <div class="comment-course-name">
+                        Intro to IT
+                    </div>
+
+                    <div class="comment-overall comment-good">
+                        GOOD
+                    </div>
+
+                    <div class="comment-date">
+                        May 1st 2022
+                    </div>
+                </div>
+
+                <div class="comment-profile">
+                    <div class="comment-profile-pass comment-profile-attribute">
+                        <p>Pass:</p>
+                        <p class="bold">YES</p>
+                    </div>
+                    <div class="comment-profile-attendace comment-profile-attribute">
+                        <p>Attendance: </p>
+                        <p class="bold">Mandatory</p>
+                    </div>
+                    <div class="comment-profile-grade comment-profile-attribute">
+                        <p>Grade: </p>
+                        <p class="bold">B+</p>
+                    </div>
+                    <div class="comment-profile-textbook comment-profile-attribute">
+                        <p>Textbook:</p>
+                        <p class="bold">YES</p>
+                    </div>
+                </div>
+
+                <div class="comment-comment">
+                    <div class="comment-feedback">
+                        <p>Marc almost elusively talks about love, hence his nickname, Dr Love. Which he holds up as the cause of all psychological malady, which is laughable. I have also known him to speak about topics that make people openly cry. Very uncomfortable. Tests suck too. Topics are case studies only, you wont be applying any statistics here, except on tests.</p>
+
+                    </div>
+
+                    <div class="comment-star-rating">
+                        <div class="profile-criteria-container">
+                            <div class="profile-criteria">
+                                <h4>Clarity</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Helpful</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Exam Difficulty</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Knowledgable</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Easy</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="comment-report">
+                    <a href="">
+                        <i class="fa fa-warning"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <div class="comment-header">
+                    <div class="comment-course-name">
+                        Intro to IT
+                    </div>
+
+                    <div class="comment-overall comment-bad">
+                        BAD
+                    </div>
+
+                    <div class="comment-date">
+                        May 2nd 2022
+                    </div>
+                </div>
+
+                <div class="comment-profile">
+                    <div class="comment-profile-pass comment-profile-attribute">
+                        <p>Pass:</p>
+                        <p class="bold">YES</p>
+                    </div>
+                    <div class="comment-profile-attendace comment-profile-attribute">
+                        <p>Attendance: </p>
+                        <p class="bold">Mandatory</p>
+                    </div>
+                    <div class="comment-profile-grade comment-profile-attribute">
+                        <p>Grade: </p>
+                        <p class="bold">B+</p>
+                    </div>
+                    <div class="comment-profile-textbook comment-profile-attribute">
+                        <p>Textbook:</p>
+                        <p class="bold">YES</p>
+                    </div>
+                </div>
+
+                <div class="comment-comment">
+                    <div class="comment-feedback">
+                        <p>Marc almost elusively talks about love, hence his nickname, Dr Love. Which he holds up as the cause of all psychological malady, which is laughable. I have also known him to speak about topics that make people openly cry. Very uncomfortable. Tests suck too. Topics are case studies only, you wont be applying any statistics here, except on tests.</p>
+
+                    </div>
+
+                    <div class="comment-star-rating">
+                        <div class="profile-criteria-container">
+                            <div class="profile-criteria">
+                                <h4>Clarity</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Helpful</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Exam Difficulty</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Knowledgable</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                            <div class="profile-criteria">
+                                <h4>Easy</h4>
+                                <div class="profile-criteria-star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="comment-report">
+                    <a href="">
+                        <i class="fa fa-warning"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
+
     <!-- Footer section -->
     <div class="footer-section">
         <div class="footer-content">
