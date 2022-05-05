@@ -13,240 +13,163 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="asset/css/main.css">
     <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/css/sub-pages.css">
 </head>
 <body>
     <div class="main">
-        <div class="heading">
+        <div class="heading-page">
             <div class="nav">
-                <div class="subnav-container">
-                    <a href="" class="subnav__item">Home</a>
-                    <a href="#about" class="subnav__item">About</a>
-                    <a href="http://127.0.0.1:5500/contact.html" class="subnav__item">Contact</a>
-                </div>
                 <div class="heading__brand">
                     <div class="heading__brand__logo"><i class="fa-solid fa-graduation-cap"></i></div>
                     <div class="heading__brand__slogan"> | 3R</div>
-                    
+                    <div class="extra__info">E d u c a t i o n</div>
                 </div>
-                <div class="subnav-container">
-                    <a href="" class="subnav__item">Need Help?</a>
-                    <a href="http://127.0.0.1:5500/signin.html" class="subnav__item">Sign in</a>
-                    <a href="" class="subnav__item">Sign up</a>
+                <div class="nav__container">
+                    <a href="" class="subnav">About</a>
+                    <a href="http://127.0.0.1:5500/contact.html" class="subnav">Contact</a>
+                    <a href="" class="subnav">Need help?</a>
+                    <a href="http://127.0.0.1:5500/signin.html" class="subnav">Sign in</a>
+                    <a href="" class="subnav">Sign up</a>
+                    <div class="dark-theme-button">
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                            <label for="checkbox" class="label">
+                                <i class="fa-solid fa-moon moon-theme"></i>
+                                <i class="fa-solid fa-sun sun-theme"></i>
+                                <div class='ball'> </div>
+                            </label>
+                    </div>
                 </div>
             </div>
-            <img src="asset/img/heading-bg.png" alt="">
-            <div class="service-option-container">
-                <div id="material-item" class="option-item">
-                    <a href="">
-                        <i class="fa-solid fa-file-lines option__icon"></i>
-                        <p class="option-title">Study Materials</p>
-                        <p class="option-des">Hi, my name is A. While for the most part, in this collection of multipurpose website templates ...</p>
-                    </a>
-                </div>
-                <div id="lecturer-item" class="option-item">
-                    <a href="">
-                        <i class="fa-solid fa-chalkboard-user option__icon"></i>
-                        <p class="option-title"> Lecturer Reviews</p>
-                        <p class="option-des">Hi, my name is A. While for the most part, in this collection of multipurpose website templates ...</p>
-                    </a>
-                </div>
-                <div id="roadmap-item" class="option-item">
-                    <a href="">
-                        <i class="fa-solid fa-map option__icon"></i>
-                        <p class="option-title"> Road map</p>
-                        <p class="option-des">Hi, my name is A. While for the most part, in this collection of multipurpose website templates ...</p>
-                    </a>
+
+            <img class='heading-page__img' alt="">
+
+            <div class="heading-page__intro">
+                <h1>Welcome to 3R</h1>
+                <h3>Make your university life easier now.</h3>
+                <a href="" >
+                    <button class="btn-hover color-9 btn-l-size">Study Materials
+                    </button>
+                </a>
+                <a href="" >
+                    <button class="btn-hover color-2 btn-l-size">Lecture reviews</button>
+                </a>
+                <a href="">
+                    <button class="btn-hover color-1 btn-l-size">Roadmap</button>
+                </a>
+            </div>
+
+            <div class="heading-page__socials">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i> </a>
+                <a href=""><i class="fa-brands fa-twitter"></i> </a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="about-section">
+            <div class="about-introduction">
+                <h1 id="about" class="title-template">ABOUT US</h1>
+                <div class="content-container">
+                    <p class="about-introduction__content">
+                        Rate My Professors boasts more than 19 million ratings of over 1.7 million professors from college students like you. Its database includes more than 7,500 schools across the United States, Canada, England, Scotland, and Wales. Simply type the name of a professor in the search bar or find your school by entering its name. You can read and leave reviews as a member or guest. Either way, you'll remain anonymous when rating professors on the platform. Displayed on every school's page are the ratings of its top professors, as well as the average professor ratings and how that school stacks up to similar institutions.
+                        <br>
+                        Rate My Professors boasts more than 19 million ratings of over 1.7 million professors from college students like you. Its database includes more than 7,500 schools across the United States, Canada, England, Scotland, and Wales. Simply type the name of a professor in the search bar or find your school by entering its name. You can read and leave reviews as a member or guest. Either way, you'll remain anonymous when rating professors on the platform. Displayed on every school's page are the ratings of its top professors, as well as the average professor ratings and how that school stacks up to similar institutions.
+                    </p>
+                    <div class="about-introduction__img">
+                        <img src="asset/img/about-us-bg.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Homepage content section -->
-        <div class="homepage__content">
-            <!-- About section -->
-            <div class="about-section">
-                <!-- About introduction -->
-                <div class="about-introduction">
-                    <h1 id="about" class="title-template">ABOUT US</h1>
-                    <div class="content-container">
-                        <p class="about-introduction__content">
-                            Rate My Professors boasts more than 19 million ratings of over 1.7 million professors from college students like you. Its database includes more than 7,500 schools across the United States, Canada, England, Scotland, and Wales. Simply type the name of a professor in the search bar or find your school by entering its name. You can read and leave reviews as a member or guest. Either way, you'll remain anonymous when rating professors on the platform. Displayed on every school's page are the ratings of its top professors, as well as the average professor ratings and how that school stacks up to similar institutions.
-                            <br>
-                            Rate My Professors boasts more than 19 million ratings of over 1.7 million professors from college students like you. Its database includes more than 7,500 schools across the United States, Canada, England, Scotland, and Wales. Simply type the name of a professor in the search bar or find your school by entering its name. You can read and leave reviews as a member or guest. Either way, you'll remain anonymous when rating professors on the platform. Displayed on every school's page are the ratings of its top professors, as well as the average professor ratings and how that school stacks up to similar institutions.
-                            
-                        </p>
-                        <div class="about-introduction__img">
-                            <img src="asset/img/about-img.jpeg" alt="">
-                        </div>
-                    </div>
+        <!-- Team member section -->
+        <div class="team-member">
+            <h1 class="team-member__heading">MEET THE TEAM</h1>
+            <div class="member-info__container">
+                <i class="fa-solid fa-chevron-left left-angle"></i>
+                <div class="member-info__item">
+                    <img src="asset/img/mem1-avt.jpg" alt="">
+                    <div class="member-info__name">Luu Quoc Nhat</div>
+                    <div class="member-info__role">Designer & Developer</div>
+                    <p class="member-info__desc">He is a responsible and diligent member, who plays an inevitable role in our group project. </p>
+                    <!-- <div class="member-info-item__socials">
+                        <a href=""><i class="fa-brands fa-facebook member__socials-icon"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram-square member__socials-icon"></i> </a>
+                        <a href=""><i class="fa-brands fa-twitter member__socials-icon"></i> </a>
+                    </div> -->
+                  
+                    <button class="btn-hover color-9 btn-s-size"> View <i class="fa-solid fa-eye view-icon"></i></button>
                 </div>
-                <!-- Team member section -->
-                <div class="about-member">
-                    <h1 class="subtitle-template">Team members</h1>
-                    <div class="member-slider">
-                        <button class="member-slider__button" onclick="plusDivs(-1)">&#10094;</button>
-                        <div class="member-slider__avatars">
-                            <img id="member1" src="asset/img/mem1-avt.jpg" alt="">
-                            <img id="member2" src="asset/img/mem2-avt.jpg" alt="">
-                            <img id="member3" src="asset/img/mem1-avt.jpg" alt="">
-                            <img id="member4" src="asset/img/mem2-avt.jpg" alt="">
-                            <img id="member5" src="asset/img/mem1-avt.jpg" alt="">
-                        </div>
-                        <button class="member-slider__button" onclick="plusDivs(1)">&#10095;</button>
-                    </div>
-
-                    <div id="first-mem" class="mySlides">
-                        <div style="background-color: #fd6666;" class="background-avatar"></div>
-                        <img src="asset/img/mem1-avt.jpg" alt="">
-                        <div class="member__info">
-                            <h1 class="member__name"> LUU QUOC NHAT </h1>
-                            <p class="member__description">Hi, my name is Nhat. I am currently on the way to becoming a machine learning engineer, and a freelance artist as well. In this project, I am mainly in charge of designing the user interface and building some further back-end functions.</p>
-                            <div class="member-skill__container">
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="second-mem" class="mySlides">
-                        <div style="background-color: #6bc2e1;" class="background-avatar"></div>
-                        <img src="asset/img/mem2-avt.jpg" alt="">
-                        <div class="member__info">
-                            <h1 class="member__name"> NGUYEN NHAT MINH </h1>
-                            <p class="member__description">Hi, my name is A. While for the most part, in this collection of multipurpose website templates, we mainly feature tools for crafting fully functional websites. However, sometimes, you will like starting the hype early, and if that is the case, Huge is the product you might not know just yet that you need.</p>
-                            <div class="member-skill__container">
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="third-mem" class="mySlides">
-                        <div style="background-color: #ffbd59;" class="background-avatar"></div>
-                        <img src="asset/img/mem1-avt.jpg" alt="">
-                        <div class="member__info">
-                            <h1 class="member__name"> TO GIA HY </h1>
-                            <p class="member__description">Hi, my name is A. While for the most part, in this collection of multipurpose website templates, we mainly feature tools for crafting fully functional websites. However, sometimes, you will like starting the hype early, and if that is the case, Huge is the product you might not know just yet that you need.</p>
-                            <div class="member-skill__container">
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="fourth-mem" class="mySlides">
-                        <div style="background-color: #13e5949e;" class="background-avatar"></div>
-                        <img src="asset/img/mem2-avt.jpg" alt="">
-                        <div class="member__info">
-                            <h1 class="member__name"> ANH </h1>
-                            <p class="member__description">Hi, my name is A. While for the most part, in this collection of multipurpose website templates, we mainly feature tools for crafting fully functional websites. However, sometimes, you will like starting the hype early, and if that is the case, Huge is the product you might not know just yet that you need.</p>
-                            <div class="member-skill__container">
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="fifth-mem" class="mySlides">
-                        <div style="background-color: #f26ab3c7;" class="background-avatar"></div>
-                        <img src="asset/img/mem1-avt.jpg" alt="">
-                        <div class="member__info">
-                            <h1 class="member__name"> HOANG MINH </h1>
-                            <p class="member__description">Hi, my name is A. While for the most part, in this collection of multipurpose website templates, we mainly feature tools for crafting fully functional websites. However, sometimes, you will like starting the hype early, and if that is the case, Huge is the product you might not know just yet that you need.</p>
-                            <div class="member-skill__container">
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                                <div class="member-skill__item">
-                                    Creative & Responsible
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="member-info__item">
+                    <img src="asset/img/mem2-avt.jpg" alt="">
+                    <div class="member-info__name">Hoang Minh</div>
+                    <div class="member-info__role">Designer & developer</div>
+                    <p class="member-info__desc">He is a responsible and diligent member, who plays an inevitable role in our group project. </p>
+                    <button class="btn-hover color-9 btn-s-size"> View <i class="fa-solid fa-eye"></i></button>
 
                 </div>
-
+                <div class="member-info__item">
+                    <img src="asset/img/mem1-avt.jpg" alt="">
+                    <div class="member-info__name">Anh</div>
+                    <div class="member-info__role">Designer & Developer</div>
+                    <p class="member-info__desc">He is a responsible and diligent member, who plays an inevitable role in our group project. </p>
+                    <button class="btn-hover color-9 btn-s-size"> View <i class="fa-solid fa-eye"></i></button>
+                </div>
+                <i class="fa-solid fa-chevron-right right-angle"></i>
+                <!-- <div class="member-info__item">
+                    <img src="asset/img/mem2-avt.jpg" alt="">
+                    <div class="member-info__name">Hoang Minh</div>
+                    <div class="member-info__role">Designer & developer</div>
+                    <p class="member-info__desc">He is a responsible and diligent member, who plays an inevitable role in our group project. </p>
+                </div>
+                <div class="member-info__item">
+                    <img src="asset/img/mem1-avt.jpg" alt="">
+                    <div class="member-info__name">Gia Hy</div>
+                    <div class="member-info__role">Designer & developer</div>
+                    <p class="member-info__desc">He is a responsible and diligent member, who plays an inevitable role in our group project. </p>
+                </div> -->
             </div>
+        </div>
+        
 
-            <!-- Self-evaluation section -->
-            <div class="self-eval">
-                <h1 class="subtitle-template">Join the 3R community</h1>
-                <div class="self-eval__container">
-                    <div class="self-eval__item">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h2 > <div class="divs"></div>Safe and secure</h2>
-                        <!-- <p href="" class="Nhat">More</p>
-                        <div class="divs">
-                        MORE
-                        </div> -->
-                        <p>Get honest recommendations from students of previous courses</p>
-                    </div>
-                    <div class="self-eval__item">
-                        <i class="fa-solid fa-users"></i>
-                        <h2>Save time and energy</h2>
-                        <p>Get honest recommendations from students of previous courses</p>
-
-                    </div>
-                    <div class="self-eval__item">
-                        <i class="fa-solid fa-file-circle-check"></i>
-                        <h2>Supportive study environment</h2>
-                        <p>Get honest recommendations from students of previous courses</p>
-
-                    </div>
-                    <div class="self-eval__item">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h2>Diverse materials</h2>
-                        <p>Get honest recommendations from students of previous courses</p>
-
-                    </div>
-
-                    <div class="self-eval__item">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h2>Honest lecture recommendations</h2>
-                        <p>Get honest recommendations from students of previous courses</p>
-
-                    </div>
-
-                    <div class="self-eval__item">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h2>Suitable study roadmap</h2>
-                        <p>Get honest recommendations from students of previous courses</p>
-                    </div>
-
+        <!-- Membership-benefits section -->
+        <div class="mem-benefit">
+            <h1 class="subtitle-template">Join the 3R community</h1>
+            <div class="mem-benefit__container">
+                <div class="mem-benefit__item">
+                    <i class="fa-solid fa-shield-halved mem-benefit__item__icon"></i>
+                    <h2 class="mem-benefit__item__title">Safe and secure</h2>
+                    <p class="mem-benefit__item__desc">Get honest recommendations from students of previous courses</p>
                 </div>
-                <p>We are working in progress to bring the best user experience!</p>
-
+                <div class="mem-benefit__item">
+                    <i class="fa-solid fa-users mem-benefit__item__icon"></i>
+                    <h2 class="mem-benefit__item__title">Save time and energy</h2>
+                    <p class="mem-benefit__item__desc">Get honest recommendations from students of previous courses</p>
+                </div>
+                <div class="mem-benefit__item">
+                    <i class="fa-solid fa-file-circle-check mem-benefit__item__icon"></i>
+                    <h2 class="mem-benefit__item__title">Supportive study environment</h2>
+                    <p class="mem-benefit__item__desc">Get honest recommendations from students of previous courses</p>
+                </div>
+                <div class="mem-benefit__item">
+                    <i class="fa-solid fa-users mem-benefit__item__icon"></i>
+                    <h2 class="mem-benefit__item__title">Save time and energy</h2>
+                    <p class="mem-benefit__item__desc">Get honest recommendations from students of previous courses</p>
+                </div>
+                <div class="mem-benefit__item">
+                    <i class="fa-solid fa-users mem-benefit__item__icon"></i>
+                    <h2 class="mem-benefit__item__title">Save time and energy</h2>
+                    <p class="mem-benefit__item__desc">Get honest recommendations from students of previous courses</p>
+                </div>
+                <div class="mem-benefit__item">
+                    <i class="fa-solid fa-users mem-benefit__item__icon"></i>
+                    <h2 class="mem-benefit__item__title">Save time and energy</h2>
+                    <p class="mem-benefit__item__desc">Get honest recommendations from students of previous courses</p>
+                </div>
             </div>
+            <p>We are working in progress to bring the best user experience!</p>
+
         </div>
 
         <!-- Footer section -->
@@ -275,16 +198,15 @@
                         
                 </div>
                 <div class="footer-navigation__container">
-                    <hr style="border: 0.5px solid black;
-                                margin-right: 20px;">
+                    <hr style="border: 0.5px solid #fff; margin-right: 20px;">
                     <div class="footer-navigation__item">
                         <h2>ABOUT</h2>
                         <a href="">Our services</a>
                         <a href="">Team members</a>
                         <a href="">Customer response</a>
                     </div>
-                    <hr style="border: 0.5px solid black;
-                                margin-right: 20px;">
+                    <hr style="border: 0.5px solid #fff; margin-right: 20px;">
+
                     <div class="footer-navigation__item">
                         <h2>CONTACT</h2>
                         <a href="">Social platorms</a>
@@ -292,8 +214,7 @@
                         <a href="">Privacy policy</a>
                         <a href="">Follow us</a>
                     </div>
-                    <hr style="border: 0.5px solid black;
-                                margin-right: 20px;">
+                    <hr style="border: 0.5px solid #fff; margin-right: 20px;">
                     <div class="footer-navigation__item">
                         <h2>MORE</h2>
                         <a href="">Terms and Conditions</a>
@@ -302,13 +223,12 @@
                     </div>
                 </div>
             </div>
-
-            <hr style="border: 0.5px solid black; margin-top: 24px;">
+            <hr style="border: 0.5px solid #fff; margin-top: 24px;">
 
             <div class="footer-extra-content">
                 <div class="copy-right">
                     <p>Exclusive for RMIT staffs and students</p>
-                    <p>Copyright © 2022 3Rservices.com. All Rights Reserved.</p>
+                    <p>Copyright © 2022 <a href="">3Rservices.com</a> . All Rights Reserved.</p>
                 </div>
 
                 <div class="social-media__icons">
@@ -318,12 +238,15 @@
                     <a href=""><i class="fa-brands fa-twitter"></i> </a>
                     <a href=""><i class="fa-brands fa-pinterest"></i></a>
                 </div>
-
             </div>
         </div>
-
-
     </div>
+    <script>
+        const checkbox = document.getElementById('checkbox');
+        checkbox.addEventListener('change', ()=>{
+            document.body.classList.toggle('dark');
+        })
+    </script>
     <script>
         var slideIndex = 1;
         showDivs(slideIndex);
@@ -343,5 +266,11 @@
           x[slideIndex-1].style.display = "block";  
         }
         </script>
+         <script>
+            function darkMode() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+          </script>
 </body>
 </html>
