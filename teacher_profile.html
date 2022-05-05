@@ -51,11 +51,10 @@
                     <h3 class="profile-degree">Doctor in Minh Nguyen university since 2013</h3>
                     <p class="profile-course">Intro to Programming, Intro to IT, Web Programming</p>
                 </div>
-            </div>
-
-            <div class="profile-rating">
-                <i class="fa-solid fa-thumbs-up profile-upvote"></i>
-                <h3>120</h3>
+                
+                <button class="profile-button js-profile-button">Rate Teacher</button>
+                
+                
             </div>
                     
             
@@ -113,15 +112,22 @@
             </div>
         
         </div>
+        
 
         <!-- Comment section -->
         <div class="comment-cover">
             <div class="comment-count">
+                
                 258 student ratings
+                <div class="profile-rating">
+                    <i class="fa-solid fa-thumbs-up profile-upvote"></i>
+                    <h3>120</h3>
+                </div>
             </div>
-            <hr style="width:30%;text-align:left;margin-left:32px;border-width:2px;">
+            
+            <hr style="width:60%;text-align:left;margin-left:32px;border-width:2px;">
 
-            <div class="comment-box">
+            <div style="margin-top: 40px;" class="comment-box">
                 <div class="comment-header">
                     <div class="comment-course-name">
                         Intro to IT
@@ -147,7 +153,7 @@
                     </div>
                     <div class="comment-profile-grade comment-profile-attribute">
                         <p>Grade: </p>
-                        <p class="bold">B+</p>
+                        <p class="bold">DI</p>
                     </div>
                     <div class="comment-profile-textbook comment-profile-attribute">
                         <p>Textbook:</p>
@@ -251,7 +257,7 @@
                     </div>
                     <div class="comment-profile-grade comment-profile-attribute">
                         <p>Grade: </p>
-                        <p class="bold">B+</p>
+                        <p class="bold">PA</p>
                     </div>
                     <div class="comment-profile-textbook comment-profile-attribute">
                         <p>Textbook:</p>
@@ -355,7 +361,7 @@
                     </div>
                     <div class="comment-profile-grade comment-profile-attribute">
                         <p>Grade: </p>
-                        <p class="bold">B+</p>
+                        <p class="bold">CR</p>
                     </div>
                     <div class="comment-profile-textbook comment-profile-attribute">
                         <p>Textbook:</p>
@@ -507,6 +513,145 @@
             </div>
 
         </div>
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa fa-window-close"></i>
+            </div>
+            <header class="modal-header">
+                Feedback Form
+            </header>
+
+            <div class="modal-body">
+                <label for="" class="course-name">
+                    1. What is your course?
+                    <select name="" id="">
+                        <option value="">Intro to IT</option>
+                        <option value="">Intro to Programming</option>
+                        <option value="">Intro to ComSys</option>
+                    </select>
+                </label>
+                <div class="clear"></div> 
+                <div class="clear"></div> 
+                <hr class="survey-hr">
+                <label for="" class="rate-overall" >2. Rate your professor</label>
+                <span class="star-rating">
+                    <input type="radio" name="rating1" value="1"><i></i>
+                    <input type="radio" name="rating1" value="2"><i></i>
+                    <input type="radio" name="rating1" value="3"><i></i>
+                    <input type="radio" name="rating1" value="4"><i></i>
+                    <input type="radio" name="rating1" value="5"><i></i>
+                </span>
+                    <div class="clear"></div> 
+                    <hr class="survey-hr">
+
+                <div class="starrating-container">
+                    <label for="" class="rate-overall" >3. How is your professor?</label>
+                    <div class="rating">
+                        <label for="" class="rate-clarity" >Clarity</label>
+                        <span class="star-rating">
+                            <input type="radio" name="rating2" value="1"><i></i>
+                            <input type="radio" name="rating2" value="2"><i></i>
+                            <input type="radio" name="rating2" value="3"><i></i>
+                            <input type="radio" name="rating2" value="4"><i></i>
+                            <input type="radio" name="rating2" value="5"><i></i>
+                        </span>
+                    </div>
+                    <div class="rating">
+                        <label for="" class="rate-helpful" >Helpful</label>
+                        <span class="star-rating">
+                            <input type="radio" name="rating3" value="1"><i></i>
+                            <input type="radio" name="rating3" value="2"><i></i>
+                            <input type="radio" name="rating3" value="3"><i></i>
+                            <input type="radio" name="rating3" value="4"><i></i>
+                            <input type="radio" name="rating3" value="5"><i></i>
+                        </span>
+                    </div>
+                    <div class="rating">
+                        <label for="" class="rate-examdifficulty" >Exam Difficulty</label>
+                        <span class="star-rating">
+                            <input type="radio" name="rating4" value="1"><i></i>
+                            <input type="radio" name="rating4" value="2"><i></i>
+                            <input type="radio" name="rating4" value="3"><i></i>
+                            <input type="radio" name="rating4" value="4"><i></i>
+                            <input type="radio" name="rating4" value="5"><i></i>
+                        </span>
+                    </div>
+                    <div class="rating">
+                        <label for="" class="rate-knowledable" >Knowledgable</label>
+                        <span class="star-rating">
+                            <input type="radio" name="rating5" value="1"><i></i>
+                            <input type="radio" name="rating5" value="2"><i></i>
+                            <input type="radio" name="rating5" value="3"><i></i>
+                            <input type="radio" name="rating5" value="4"><i></i>
+                            <input type="radio" name="rating5" value="5"><i></i>
+                        </span>
+                    </div>
+                    <div class="rating">
+                        <label for="" class="rate-easy" >Easy</label>
+                        <span class="star-rating">
+                            <input type="radio" name="rating6" value="1"><i></i>
+                            <input type="radio" name="rating6" value="2"><i></i>
+                            <input type="radio" name="rating6" value="3"><i></i>
+                            <input type="radio" name="rating6" value="4"><i></i>
+                            <input type="radio" name="rating6" value="5"><i></i>
+                        </span>
+                    </div>
+                </div>
+                   
+                    <div class="clear"></div> 
+                    <hr class="survey-hr">
+
+
+
+                
+ 
+                <label for="m_3189847521540640526commentText">4. Any Other suggestions:</label><br/><br/>
+                <textarea cols="75" name="commentText" rows="5"></textarea><br>
+                <br>
+                <div class="clear"></div> 
+                
+                <button class="submit-button" style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review">
+                Submit your form
+                </button> 
+                </form>
+                </div>
+            </div>
+
+            <footer class="modal-footer">
+
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const profileBtns = document.querySelectorAll('.js-profile-button')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+
+        function showProfileRating() {
+            modal.classList.add('open')
+        }
+
+        function hideProfileRating() {
+            modal.classList.remove('open')
+        }
+
+        for (const profileBtn of profileBtns) {
+            profileBtn.addEventListener('click', showProfileRating)
+        }
+
+        modalClose.addEventListener('click', hideProfileRating)
+        modal.addEventListener('click', hideProfileRating)
+        modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+
+
+    </script>
 
 </body>
 </html>
