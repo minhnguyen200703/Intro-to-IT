@@ -84,17 +84,24 @@
 
 .review-teacher img {
     width: 14rem;
+    border-radius: 5px;
 }
 
 .review-teacher-profile {
     flex-grow: 7;
 }
 
+.review-teacher-vote > h3 {
+    display: inline-block;
+    min-width: 60px;
+    margin-left: 12px;
+}
+
 .review-teacher-vote {
     display: flex;
     font-size: 3rem;
     align-items: center;
-    just
+    
 }
 
 .review-teacher-upvote {   
