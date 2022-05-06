@@ -118,8 +118,9 @@ html {
 /* Dark theme toggle */
 
 body.dark {
-    background-color: #292c35;
-    color: white;
+    /* #292c35 */
+    background-color: #333333; 
+    color: #ffffff;
 }
 
 .dark-theme-button {
@@ -178,9 +179,3 @@ body.dark {
     right: 8px;
     color: white;
 }
-
-.bold {
-    font-weight: 900;
-}
-
-    
