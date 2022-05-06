@@ -8,16 +8,13 @@
 /* Nav */
 
 .nav_searchbar{
-    position: relative;
 }
 
 .nav_searchbar input{
     float: right;
     padding: 24px;
     border: none;
-    margin-top: -12px;
     margin-right: 16px;
-    margin-bottom: 12px;
     font-size: 17px;
     width: 52rem;
     height: 5rem;
