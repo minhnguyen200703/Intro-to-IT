@@ -1,4 +1,5 @@
 /* CONTACT PAGE */
+.register-page,
 .login-page,
 .contact-page {
     height: 100vh;
@@ -7,10 +8,24 @@
     overflow: hidden;
 }
 
+.contact-page {
+    /* background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%));
+    background-image: linear-gradient(45deg, #4bd0fa -4.45%, #3a60f2 104.12%);
+    background-image: linear-gradient(45deg, #F62682 -4.45%, #6F5CF1 104.12%);; */
+    /* background-image: linear-gradient(
+        to right,
+        #25aae1,
+        #40e495
+   ); */
+    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%));
+
+}
+
 .contact-page a:hover {
     opacity: 0.7;
 }
 
+.register-page img,
 .login-page img,
 .contact-page img {
     width: 100%;
@@ -36,6 +51,7 @@
     opacity: 0.7;
 }
 
+.register-page .heading__brand,
 .login-page .heading__brand,
 .contact-page .heading__brand {
     margin-top: 45px;
@@ -44,6 +60,8 @@
 
 
 .contact-content {
+    background-color: #f2f1ec;
+    border-radius: 5px;
     text-align: initial;
     display: flex;
     justify-content: space-between;
@@ -160,12 +178,10 @@ input:focus {
 .commitment {
     color: white;
     font-size: 1.6rem;
-    
 }
 
-
 /* Login page */
-/* Login page */
+.register-page,
 .login-page {
     height: 100vh;
     position: relative;
@@ -181,16 +197,19 @@ input:focus {
     margin-top: 8%;
 }
 
+.register-content__heading,
 .login-content__heading {
     margin-top: 0;
     padding-top: 32px;
     font-size: 2.8rem;
 }
 
+.register-container,
 .login-container {
     padding: 16px 36px;
 }
 
+.register-item,
 .login-item {
     display: flex;
     justify-content: space-between;
@@ -203,59 +222,114 @@ input:focus {
 .login-item i {
     display: inline-block;
     font-size: 2.2rem;
-    color:#919191;
+    color: #919191;
 }
 
+.register-item input,
 .login-item input {
+    font-size: 1.5rem;
     display: inline-block;
     border: none;
     width: 100%;
     padding-left: 12px;
-    color: #919191;
+    color: #747070;
     background-color: #f2f1ec;
 
 }
 
+.register-btn,
 .login-btn {
     width: 100%;
     background-color:rgb(241, 90, 115);
     border: none;
     font-size: 1.8rem;
     font-weight: 600;
+    margin-top: 16px;
     padding: 8px 0;
     border-radius: 6px;
 }
 
+.register-btn:hover,
 .login-btn:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
+.extra-register-content,
 .extra-login-content {
     padding-left: 36px;
     text-align: initial;
 }
 
+.extra-register-content p,
 .extra-login-content p{
     color: #919191;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
+.extra-register-content p:first-child,
 .extra-login-content p:first-child {
     text-decoration: underline;
 }
 
+.extra-register-content p:first-child:hover,
 .extra-login-content p:first-child:hover {
     cursor: pointer;
 }
 
-
+.extra-register-content p:last-child,
 .extra-login-content p:last-child {
     padding-bottom: 36px;
     margin-bottom: 0;
 }
 
+.extra-register-content p a,
 .extra-login-content p a {
     color:#1ea0f2;
     opacity: 1;
+}
+
+
+/* Register form */
+.register-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.register-item {
+    width: 100%;
+}
+
+.register-item:nth-child(1),
+.register-item:nth-child(2) {
+    width: 48%;
+}
+
+.register-item__label {
+    font-size: 1.6rem;
+}
+
+.check_agree {
+    width: 100%;
+    background-color: #f2f1ec;
+    text-align: initial;
+}
+
+.check_agree__checkbox {
+    text-align: initial;
+}
+
+.check_agree__label,
+.check_agree__label a {
+    display: inline-block;
+    margin: 3px 3px 3px 4px;
+    color: #747070;
+    font-size: 1.5rem;
+    text-align: initial;
+}
+input[type="checkbox"]
+{
+    transform: scale(1.2);
+    vertical-align: middle;
 }
