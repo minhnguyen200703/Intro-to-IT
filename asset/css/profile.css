@@ -96,7 +96,7 @@
 }
 
 .profile-button {
-    width: 220px;
+    /** width: 220px;
     height: 50px;
     border: 1px solid black;
     border-radius: 32px;
@@ -104,7 +104,7 @@
     color: #fff;
     font-weight: 900;
     font-size: 14px;
-    cursor: pointer;
+    cursor: pointer; **/
     align-self: center;
 }
 
