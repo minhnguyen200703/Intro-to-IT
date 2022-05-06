@@ -79,6 +79,23 @@
     top: 50px;
 }
 
+.profile-suggested-container {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.suggested_attribute {
+    display: flex;
+    flex-direction: row;
+}
+
+.suggested_attribute > p {
+    padding-right: 16px;
+    font-size: 18px;
+}
+
 .profile-criteria {
     font-size: 14px;
     display: flex;
@@ -212,12 +229,22 @@
 
 }
 
+
+
 .comment-comment {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
     ;
 }
+
+.comment-suggested-container {
+    position: relative;
+    display: flex;
+    margin-left: 16px;
+    flex-direction: column;
+}
+
 
 .comment-feedback {
     font-size: 18px;
@@ -242,6 +269,24 @@
     line-height: 16px;
     margin: 12px;
 }
+
+.comment-load {
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 4px;
+    width: 5%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 40px;
+    left: -220px;
+    position: relative;
+    
+}
+
 
 /* Modal section */
 
