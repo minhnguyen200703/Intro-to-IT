@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #f2f1ec;
     transition: 0.3s linear;
+    scroll-behavior: smooth;
 }
 
 /* Heading page */
@@ -36,7 +37,6 @@ body {
     top: 28px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
     line-height: 26px;
 }
@@ -97,7 +97,7 @@ body {
 
 .heading-page__img {
     width: 110%;
-    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('heading-bg.png');
+    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('/asset/img/heading-bg.png');
     background-size: cover;
     color: white;
     width: 100%;
@@ -175,7 +175,7 @@ body {
 .about-introduction__content {
     text-align: justify;
     width: 50%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 22px;
 }
