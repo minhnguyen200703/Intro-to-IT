@@ -97,7 +97,7 @@ body {
 
 .heading-page__img {
     width: 110%;
-    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('/asset/img/heading-bg.png');
+    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('./asset/img/heading-bg.png');
     background-size: cover;
     color: white;
     width: 100%;
@@ -197,7 +197,7 @@ body {
     height: 100%;
     text-align: center;
     padding-bottom: 80px;
-    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('/asset/img/meet_the_team-bg.png');
+    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('./asset/img/meet_the_team-bg.png');
 }
 
 .team-member__heading {
