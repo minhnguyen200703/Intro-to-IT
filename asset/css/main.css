@@ -197,7 +197,7 @@ body {
     height: 100%;
     text-align: center;
     padding-bottom: 80px;
-    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('https://github.com/minhnguyen200703/Intro-to-IT/blob/main/asset/img/meet_the_team-bg.png?raw=true');
+    background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('https://raw.githubusercontent.com/minhnguyen200703/Intro-to-IT/main/asset/img/meet_the_team-bg.png');
 }
 
 .team-member__heading {
