@@ -21,6 +21,13 @@
     border-radius: 2px;
 }
 
+.nav_avatar {
+    width: 30px;
+    position: relative;
+    top: 7px;
+    border-radius: 16px;
+}
+
 
 
 /* Content container */
