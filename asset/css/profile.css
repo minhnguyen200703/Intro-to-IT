@@ -43,22 +43,6 @@
     font-size: larger;
 }
 
-.profile-name {
-
-}
-
-.profile-location {
-
-}
-
-.profile-major {
-
-}
-
-.profile-degree {
-
-}
-
 .profile-rating {
     display: flex;
     font-size: 43px;
@@ -73,10 +57,6 @@
 
 .profile-rating > h3 {
     font-size: 22px;
-}
-
-.profile-course {
-
 }
 
 .profile-criteria-container { 
@@ -219,24 +199,6 @@
     padding-right: 10px;
 }
 
-.comment-profile-pass {
-    
-}
-
-.comment-profile-attendace {
-    
-}
-
-.comment-profile-grade {
-    
-}
-
-.comment-profile-textbook {
-
-}
-
-
-
 .comment-comment {
     display: flex;
     flex-direction: row;
@@ -258,10 +220,6 @@
     padding: 50px;
     max-width: 600px;
     line-height: 24px;
-}
-
-.comment-star-rating {
-
 }
 
 .comment-report {
@@ -475,8 +433,9 @@
     margin: 5%;
     margin-left: 10%;
     font-size: 12px;
-  }
-  .timeline__event {
+}
+
+.timeline__event {
     background: #fff;
     margin-bottom: 20px;
     position: relative;
@@ -484,28 +443,33 @@
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  }
-  .timeline__event__title {
+}
+
+.timeline__event__title {
     font-size: 1.6rem;
     line-height: 1.4;
     text-transform: uppercase;
     font-weight: 600;
     color: #9251ac;
     letter-spacing: 1.5px;
-  }
-  .timeline__event__content {
+}
+
+.timeline__event__content {
     padding: 20px;
-  }
+}
+
   .timeline__event__content p {
       color: #000;
-  }
-  .timeline__event__date {
+}
+
+.timeline__event__date {
     color: #f6a4ec;
     font-size: 1.6rem;
     font-weight: 600;
     white-space: nowrap;
-  }
-  .timeline__event__icon {
+}
+
+.timeline__event__icon {
     border-radius: 8px 0 0 8px;
     background: #9251ac;
     display: flex;
@@ -515,18 +479,21 @@
     font-size: 2rem;
     color: #9251ac;
     padding: 20px;
-  }
-  .timeline__event__icon i {
+}
+
+.timeline__event__icon i {
     position: absolute;
     top: 50%;
     left: -65px;
     font-size: 2.5rem;
     transform: translateY(-50%);
-  }
-  .timeline__event__description {
+}
+
+.timeline__event__description {
     flex-basis: 60%;
-  }
-  .timeline__event:after {
+}
+
+.timeline__event:after {
     content: "";
     width: 2px;
     height: 100%;
@@ -535,60 +502,68 @@
     top: 52%;
     left: -3.5rem;
     z-index: -1;
-  }
+}
   
-  .timeline__event--type2:before {
+.timeline__event--type2:before {
     background: #87bbfe;
     border-color: #555ac0;
-  }
-  .timeline__event--type2:after {
+}
+
+.timeline__event--type2:after {
     background: #555ac0;
-  }
-  .timeline__event--type2 .timeline__event__date {
+}
+
+.timeline__event--type2 .timeline__event__date {
     color: #87bbfe;
-  }
-  .timeline__event--type2 .timeline__event__icon {
+}
+
+.timeline__event--type2 .timeline__event__icon {
     background: #555ac0;
     color: #555ac0;
-  }
-  .timeline__event--type2 .timeline__event__title {
+}
+
+.timeline__event--type2 .timeline__event__title {
     color: #555ac0;
-  }
-  .timeline__event--type3:before {
+}
+
+.timeline__event--type3:before {
     background: #aff1b6;
     border-color: #24b47e;
-  }
-  .timeline__event--type3:after {
-    background: #24b47e;
-  }
-  .timeline__event--type3 .timeline__event__date {
-    color: #aff1b6;
-  }
-  .timeline__event--type3 .timeline__event__icon {
-    background: #24b47e;
-    color: #24b47e;
-  }
-  .timeline__event--type3 .timeline__event__title {
-    color: #24b47e;
-  }
-  .timeline__event:last-child:after {
-    content: none;
-  }
+}
 
-  .timeline-add-btn{
+.timeline__event--type3:after {
+    background: #24b47e;
+}
+
+.timeline__event--type3 .timeline__event__date {
+    color: #aff1b6;
+}
+
+.timeline__event--type3 .timeline__event__icon {
+    background: #24b47e;
+    color: #24b47e;
+}
+
+.timeline__event--type3 .timeline__event__title {
+    color: #24b47e;
+}
+
+.timeline__event:last-child:after {
+    content: none;
+}
+
+.timeline-add-btn{
     padding: 15px;
     border-radius: 8px;
     width: 7%;
     font-size: 16px;
     align-self: center;
     margin-top: 24px;    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  }
+}
 
-  .timeline-add-btn:hover{
 
-  }
   
-  @media (max-width: 786px) {
+@media (max-width: 786px) {
     .timeline__event {
       flex-direction: column;
     }
@@ -596,7 +571,7 @@
     .timeline__event__icon {
       border-radius: 4px 4px 0 0;
     }
-  }
+}
 
 
 /* Popup container - can be anything you want */
