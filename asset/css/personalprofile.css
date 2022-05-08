@@ -1,0 +1,116 @@
+.student-profile {
+    margin-bottom: 64px;
+}
+.student-profile .card {
+    border-radius: 10px;
+
+  }
+  
+  .student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  .student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .student-profile .card p {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .student-profile .table th,
+  .student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+  }
+
+  .py-4{padding-top:1.5rem}
+
+  .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
+
+  .row{
+      display:-ms-flexbox;
+      display:flex;
+      -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+      margin-right:-15px    ;
+      margin-left:-15px;
+
+    }
+.col-lg-4{
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+    position:relative;
+    width:100%;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.card{
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem;
+}
+
+.shadow-sm{
+    box-shadow:0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.card-header{
+    padding:.75rem 1.25rem;
+    margin-bottom:0;
+    background-color:rgba(0,0,0,.03);
+    border-bottom:1px solid rgba(0,0,0,.125);
+}
+.card-header:first-child{
+    border-radius:calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.bg-transparent{
+    background-color:transparent;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.card-body{
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    padding:1.25rem;
+}
+
+.mb-0,.my-0{
+    margin-bottom:0;
+}
+
+.pr-1,.px-1{padding-right:.25rem!important}
+
+.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+
+.border-0{border:0!important}
+
+.pr-1,.px-1{padding-right:.25rem!important}
+
+
+.table{border-collapse:collapse!important}.table td,.table th{background-color:#fff!important}
+.pt-0,.py-0{padding-top:0!important}
+.table-bordered td,.table-bordered th{border:1px solid #dee2e6!important}
