@@ -31,7 +31,6 @@
 .profile-container {
     width: 300px;
     display: flex;
-    margin-top: 100px;
     flex-direction: column;
 }
 
@@ -654,4 +653,17 @@
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+
+@media (min-width:768px){
+    .comment-box {width: 600px;}
+}
+
+@media (min-width:1100px){
+    .comment-box {width: 800px;}
+}
+
+@media (min-width:1400px){
+    .comment-box {width: 1200px;}
 }
