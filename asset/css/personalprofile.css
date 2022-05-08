@@ -1,6 +1,10 @@
 .student-profile {
     margin-bottom: 64px;
 }
+
+.student-profile h3 {
+    color: #000;
+}
 .student-profile .card {
     border-radius: 10px;
 
