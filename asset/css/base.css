@@ -37,8 +37,6 @@ html {
     font-size: 1.4rem;
     padding: 16px 0;
     border-radius: 30px;
-
-
 }
 
 .btn-m-size {
@@ -116,7 +114,6 @@ html {
 }
 
 /* Dark theme toggle */
-
 body.dark {
     /* #292c35 */
     background-color: #333333; 
@@ -178,4 +175,33 @@ body.dark {
     position: absolute;
     right: 8px;
     color: white;
+}
+
+/* back-to-top button */
+.back-to-top {
+    position: fixed;
+    right: 26px;
+    bottom: 26px;
+    border-radius: 100%;
+    background: #141c38;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+  
+.back-to-top:hover {
+    opacity: 60%;
+}
+  
+.hidden {
+    opacity: 0%;
+}
+  
+.back-to-top-icon {
+    font-size: 1.4rem;
+    width: 16px;
+    height: 16px;
+    color: #7ac9f9;
 }
