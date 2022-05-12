@@ -205,3 +205,7 @@ body.dark {
     height: 16px;
     color: #7ac9f9;
 }
+
+.bold {
+    font-weight: 900;
+}
