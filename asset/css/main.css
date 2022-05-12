@@ -31,14 +31,14 @@ body {
 }
 
 .nav {
+    width: 100%;
     height: 36px;
-    padding: 0 80px;
-    position: absolute;
-    top: 28px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    position: absolute;
+    top: 28px;
     line-height: 26px;
+    padding: 0 80px;
 }
 
 .nav__container {
@@ -96,13 +96,13 @@ body {
 }
 
 .heading-page__img {
-    width: 110%;
     background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('https://raw.githubusercontent.com/minhnguyen200703/Intro-to-IT/main/asset/img/heading-bg.png');
     background-size: cover;
     color: white;
     width: 100%;
     height: 65vh;
 }
+
 .heading-page__intro {
     position: absolute;
     top: 60%;
@@ -147,6 +147,8 @@ body {
 .heading-page__socials a:hover {
     opacity: 0.7;
 }
+
+
 /* About section */
 .homepage__content {
 }
@@ -189,113 +191,154 @@ body {
     width: 100%;
 }
 
-/* Team members */
+/* Team member */
+.team_member__bg-img {
+    height: 75vh;
+}
+  
 .team-member {
     margin-top: 60px;
-    background-color:rgba(255, 189, 89,1);
+    height: 75vh;
     width: 100%;
-    height: 100%;
-    text-align: center;
-    padding-bottom: 80px;
+    overflow: hidden;
     background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('https://raw.githubusercontent.com/minhnguyen200703/Intro-to-IT/main/asset/img/meet_the_team-bg.png');
+}
+  
+.team_member__bg-img {
 }
 
 .team-member__heading {
-    padding: 30px 0 40px;
+    text-align: center;
+    color: white;
+    margin: 30px;
     font-size: 2.4rem;
     color: rgb(255, 255, 255) !important;
 }
-
-.member-info__container {
-    position: relative;
+  
+.main-card{
+    margin-top: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 200%;
+    transition: 1.2s;
+}
+  
+#two:checked ~ .main-card{
+    margin-left: -100%;
+}
+  
+.member-card__container{
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 90px;
+    justify-content: space-between;
+}
+  
+.member-card__item{
+    background-color: #f2f1ec;
+    width: 22%;
+    border-radius: 14px;
+    padding: 12px 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+    font-size: 1.5rem;
 }
 
-.member-info__container .left-angle,
-.member-info__container .right-angle {
-    font-size: 3rem;
-    color: white;
-    opacity: 0.7;
-}
-
-.right-angle {
-    position: absolute;
-    right: 32px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.left-angle {
-    position: absolute;
-    left: 32px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.member-info__container .left-angle:hover,
-.member-info__container .right-angle:hover {
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-.member-info__item {
-    width: 20%;
-    background-color: #f9f9f9ed;
-    border-radius: 10px;
-    border-bottom-left-radius: 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 15px 25px;
-}
-
-.member-info__item img {
-    width:120px;
-    height:120px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.member-info__name {
-    padding: 20px 0 8px;
+.member-card__name {
     font-size: 1.8rem;
     font-weight: bold;
     color: black;
+    margin: 0 0 10px;
 }
 
-.member-info__role {
+.member-card__position {
+    margin: 0 0 20px;
     color:#1ea0f2;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
-.member-info__desc {
+.member-card__desc {
+    margin: 0 0 10px;
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
+    opacity: 0.8;
 }
 
-/* .member-info__item a {
-    text-decoration: none;
-}
-
-.member__socials-icon {
-    color: rgb(41, 38, 38);
-    font-size: 2.2rem;
-    padding-right: 8px;
-} */
-
-.member-info__item span,
-.member-info__item .view-icon{
+.member-card__item .view-icon{
     font-size: 1.4rem;
     opacity: 0.6;
 }
 
-.member-info__item span:hover {
-    padding: 10px;
-    background-color:rgba(49, 196, 190, 0.75);
-    cursor: pointer;
-    border-radius: 4px;
+/* .member-card__item:hover{
+    transform: translateY(-16px);
+} */
+  
+.member-card__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.member-card__img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    /* background: #1ea0f2; */
+    margin-bottom: 22px;
+}
+  
+.member-card__img>img{
+    height: 100%;
+    width: 100%;
+    /* border: 3px solid #ffff; */
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.team-member .slider-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
 }
 
+.slider-button label {
+    height: 12px;
+    border-radius: 20px;
+    background-color:white;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+  
+.slider-button label.active{
+    width: 35px;
+}
+#one:checked ~ .slider-button .one{
+    width: 35px;
+}
+#one:checked ~ .slider-button .two{
+    width: 15px;
+}
+#two:checked ~ .slider-button .one{
+    width: 15px;
+}
+#two:checked ~ .slider-button .two{
+    width: 35px;
+}
+input[type="radio"]{
+    display: none;
+}
+
+
+/* membership-benefits*/
 .subtitle-template {
     display: inline-block;
     padding-bottom: 4px;
@@ -305,7 +348,6 @@ body {
     box-sizing: content-box;
 }
 
-/* membership-benefits*/
 .mem-benefit {
     margin: 4% 12% 0;
     text-align:center;
@@ -340,12 +382,12 @@ body {
 }
 
 .mem-benefit__item__desc {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .mem-benefit>p {
     padding: 20px 0 36px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 /* Footer section */
@@ -377,7 +419,7 @@ body {
 }
 .footer__logo-brand p {
     color: #919191;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .footer__brand__logo {
