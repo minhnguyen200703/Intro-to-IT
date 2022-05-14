@@ -25,13 +25,14 @@
   }
   
   .student-profile .card p {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #000;
+    text-align: justify;
   }
   
   .student-profile .table th,
   .student-profile .table td {
-    font-size: 14px;
+    font-size: 1.5rem;
     padding: 5px 10px;
     color: #000;
   }
@@ -44,6 +45,7 @@
     margin-right:auto;
     margin-left:auto
 }
+
 @media (min-width:576px){
     .container{max-width:540px}
 }
@@ -59,15 +61,15 @@
     .container{max-width:1140px}
 }
 
-  .row{
-      display:-ms-flexbox;
-      display:flex;
-      -ms-flex-wrap:wrap;
-      flex-wrap:wrap;
-      margin-right:-15px    ;
-      margin-left:-15px;
+.row{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px    ;
+    margin-left:-15px;
+}
 
-    }
 .col-lg-4{
     -ms-flex:0 0 33.333333%;
     flex:0 0 33.333333%;
@@ -98,7 +100,7 @@
 }
 
 .card-header{
-    padding:.75rem 1.25rem;
+    padding:.75rem 1.75rem;
     margin-bottom:0;
     background-color:rgba(0,0,0,.03);
     border-bottom:1px solid rgba(0,0,0,.125);
@@ -118,7 +120,7 @@
 .card-body{
     -ms-flex:1 1 auto;
     flex:1 1 auto;
-    padding:1.25rem;
+    padding:1.75rem;
 }
 
 .mb-0,.my-0{
@@ -141,7 +143,6 @@
     padding: right 0.25rem;
 }
 
-
 .table{
     border-collapse:collapse
 }
@@ -153,6 +154,34 @@
 .pt-0,.py-0{
     padding-top:0;
 }
+
+.mt-16 {
+    margin-top: 16px;
+}
+
 .table-bordered td,.table-bordered th{
     border:1px solid #dee2e6;
+}
+.profile__academic-info, 
+.profile__extra-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__edit-icon {
+    display: inline-block;
+    opacity: 0.7;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+.profile__edit-icon:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.profile__extra-info__text {
+    line-height: 2.2rem;
+    display: inline-block;
+    font-size: 1.2rem;
 }
