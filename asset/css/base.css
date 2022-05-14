@@ -107,6 +107,10 @@ html {
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
+
+.non_underline {
+    text-decoration: none;
+}
 @keyframes rainbow { 
     0%{background-position:left}
     50%{background-position:right}
@@ -204,8 +208,4 @@ body.dark {
     width: 16px;
     height: 16px;
     color: #7ac9f9;
-}
-
-.bold {
-    font-weight: 900;
 }
