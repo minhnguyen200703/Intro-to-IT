@@ -19,7 +19,7 @@
 /* Content container */
 
 .checked {
-    color: orange;
+    color: #e43603;
 }
 
 .profile-cover{
@@ -29,7 +29,7 @@
 }
 
 .profile-container {
-    width: 300px;
+    width: 330px;
     display: flex;
     flex-direction: column;
 }
@@ -40,7 +40,7 @@
 }
 
 .profile-description {
-    font-size: larger;
+    font-size: 14px;
 }
 
 .profile-rating {
@@ -406,6 +406,10 @@
     display: block;
 }
 
+.rating {
+    margin-top: 22px;
+}
+
 .rating > label {
     display: inline-block;
     min-width: 150px;
@@ -627,6 +631,11 @@
 
 .profile-criteria-star {
     min-width: 150px;
+    font-size: 18px;
+}
+
+.profile-criteria-star span {
+    margin-right: 8px;
 }
   
 /* Add animation (fade in the popup) */
@@ -661,3 +670,44 @@
  
 
 }
+
+.like-button {
+    color: #888;
+    font-size: 14px;
+    background-color: transparent;
+    border: 0.1em solid;
+    border-radius: 1em;
+    padding: 8px 10px;
+    box-shadow: 0 0.25em 1em -0.25em;
+    cursor: pointer;
+    transition: color 150ms ease-in-out, background-color 150ms ease-in-out, transform 150ms ease-in-out;
+    outline: 0;
+}
+.like-button:hover {
+    color: #000054;
+}
+.like-button:active {
+    transform: scale(0.95);
+}
+.like-button.selected {
+    color: #FFF;
+    background-color: #000054;
+    border-color: #000054;
+} 
+.like-button .thumbs-up-icon {
+    display: inline-block;
+    fill: currentColor;
+    width: 0.8em;
+    height: 0.8em;
+}
+
+.rv-suggested {
+    color: #000054;
+    font-size: 24px !important;
+    padding: 8px;
+    margin-left: 22px;
+    margin-top: 4px ;
+}
+
+
+  
