@@ -198,7 +198,7 @@ body {
   
 .team-member {
     margin-top: 60px;
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     overflow: hidden;
     background-image: linear-gradient(to bottom, rgb(25 25 27 / 52%), rgb(20 20 22 / 85%)), url('https://raw.githubusercontent.com/minhnguyen200703/Intro-to-IT/main/asset/img/meet_the_team-bg.png');
