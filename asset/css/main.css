@@ -189,6 +189,8 @@ body {
 
 .about-introduction__img img{
     width: 100%;
+    height: 36vh;
+    object-fit: cover;
 }
 
 /* Team member */
