@@ -1,7 +1,7 @@
 # Intro-to-Information-Technology
 Team 3R
-- Nguyễn Nhật Minh (s3932112)
-- Tô Gia Hy (s3927539)
+- Nguyen Nhat Minh (s3932112)
+- To Gia Hy (s3927539)
 - Nguyen Tran Ha Anh (s3938490)
 - Luu Quoc Nhat (s3924942)
 - Hoang Tuan Minh (s3924716)
